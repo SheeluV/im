@@ -4,88 +4,61 @@
 <head>
   <meta charset="utf-8">
   <title>Vagisha</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/Style.css">
+  <link rel="icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Ultra&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Quintessential&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <!--
-  <img src="images/IMG_20190904_202149_084.jpg" alt="Vagisha's DP">
-  <br>
-  -->
-  <table cellspacing="20">
-    <tr>
-      <td><img
-          src="data:image/jpeg;base64,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"
-          alt="Vagisha's DP"></td>
-      <td>
-        <h1>Vagisha Kumar</h1>
-        <em>
-          <p>Engineering student<strong> <a href="https://undergrad.cs.umd.edu/what-computer-science">Computer science </a> .</strong>
-        </em></p>
-        <p>I am a student and I love to try new cuisines&#127869;.While my favourite cuisin is Indian.</p>
-      </td>
-    </tr>
-  </table>
-  <hr>
-  <h3>Education</h3>
-  <ul>
-    <li>Queen of angel's</li>
-    <li>Parul University</li>
-  </ul>
-  <h4>Details</h4>
-  <table border="1">
-    <thead>
-      <tr>
-        <th>Year</th>
-        <th> Place of education</th>
-      </tr>
-    </thead>
-    <tr>
-      <td>2004-2018</td>
-      <td> Queen of Angel's&#128512;</td>
-    </tr>
-    <tr>
-      <td>2018</td>
-      <td> Parul University</td>
-    </tr>
-  </table>
-  <hr>
-  <h3>My Hobbies 🥰💕</h3>
-  <ol>
-    <li>Dancing 💃</li>
-    <li>Painting 🖌🎨</li>
-    <li>Basket ball 🏀</li>
-    <li>Mobile Games 🎮</li>
-  </ol>
-  <hr>
-  <h3>My Skills</h3>
-  <table cellspacing="25">
-    <tr>
-      <td>HTML</td>
-      <td>&#128142;&#128142;&#128142;&#128142;&#128142;</td>
+  <div class="top">
+    <img class="to" src="images/flo.png" alt="c1">
+    <h1>I'm Vagisha</h1>
+    <p>a web developer</p>
+    <img class="bo" src="images/fl.png" alt="c2">
+  </div>
+  <hr class="my">
+  <div class="middle-container">
+    <div class="profile">
+      <img class="vag"
+        src="data:image/jpeg;base64,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"
+        alt="DP">
+      <h2>Hello.</h2>
+      <p>I am a student and I love to try new cuisines&#127869;.While my favourite cuisin is Indian.</p>
+    </div>
+    <hr>
+    <div class="skills">
+      <h2>My Skills.</h2>
+      <div class="skill-row">
+        <img class="vag" src="images/logic_small.jpg" alt="">
+        <h3>LOGICAL REASONING</h3>
+        <p>I love to solve problems that requires logical reasoning and by God's grace, Iam really good at it as well.</p>
+      </div>
+      <div class="skill-row">
+        <img class="vag" src="images/math1.jpg" alt="">
+        <h3>MATHEMATICS</h3>
+        <p>I have been good at maths since chilhood and my love for matyhematics will never end.</p>
+      </div>
+    </div>
+    <hr>
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>Contact me in following ways :</h3>
+      <p>Heres my mail id, LinkedIn and twitter accounts</p>
+      <a class="btn" href="mailto:vagishakumar433@gmail.com">CONTACT ME</a>
+    </div>
+  </div>
 
-    </tr>
-    <tr>
-      <td>CSS</td>
-      <td>&#128142;&#128142;&#128142;&#128142;</td>
-    </tr>
-    <tr>
-      <td>Java</td>
-      <td>&#128142;&#128142;&#128142;&#128142;&#128142;</td>
-    </tr>
-    <tr>
-      <td>MySQL</td>
-      <td>&#128142;&#128142;&#128142;</td>
-
-    </tr>
-    <tr>
-      <td>XML</td>
-      <td>&#128142;&#128142;&#128142;&#128142;&#128142;</td>
-    </tr>
-  </table>
-  <br>
-  <hr>
-  <a href="Contact.html">Contact Me</a>
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/feed/">LinkedIn</a>
+    <a class="footer-link" href="https://twitter.com/">Twitter</a>
+    <p class="me">© VAGISHA KUMAR.</p>
+  </div>
 </body>
 
 </html>
+
